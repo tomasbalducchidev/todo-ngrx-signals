@@ -6,7 +6,7 @@ import { TasksStore } from './app.component.store';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  providers: [TasksStore],
+  // providers: [TasksStore],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
   <div class="container">

@@ -21,6 +21,7 @@ const initialState: TasksState = {
 };
 
 export const TasksStore = signalStore(
+  { providedIn: 'root' },
   withState(initialState),
   withComputed((state) => ({
     visibleTasks: computed(() => {
